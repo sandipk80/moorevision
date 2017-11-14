@@ -1,0 +1,31 @@
+[23-Jul-2016 19:32:16 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling POST https://www.googleapis.com/calendar/v3/calendars/0l6h391d9iaqqthhg4gfrtul9o@group.calendar.google.com/events?key=AIzaSyCs33-69KKO44Nt8pjD9lofxHzcPpEFSfM: (404) Not Found' in /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/contrib/Google_CalendarService.php(494): Google_ServiceResource->__call('insert', Array)
+#3 /home/webcodebyte/public_html/moore-vision/google/simple.php(50): Google_EventsServiceResource->insert('0l6h391d9iaqqth...', Object(Google_Event))
+#4 {main}
+  in /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/io/Google_REST.php on line 66
+[23-Jul-2016 19:35:43 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling POST https://www.googleapis.com/calendar/v3/calendars/0l6h391d9iaqqthhg4gfrtul9o@group.calendar.google.com/events?key=AIzaSyCs33-69KKO44Nt8pjD9lofxHzcPpEFSfM: (404) Not Found' in /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/contrib/Google_CalendarService.php(494): Google_ServiceResource->__call('insert', Array)
+#3 /home/webcodebyte/public_html/moore-vision/google/simple.php(50): Google_EventsServiceResource->insert('0l6h391d9iaqqth...', Object(Google_Event))
+#4 {main}
+  in /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/io/Google_REST.php on line 66
+[23-Jul-2016 19:40:08 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling POST https://www.googleapis.com/calendar/v3/calendars/0l6h391d9iaqqthhg4gfrtul9o@group.calendar.google.com/events?key=AIzaSyCs33-69KKO44Nt8pjD9lofxHzcPpEFSfM: (404) Not Found' in /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/contrib/Google_CalendarService.php(494): Google_ServiceResource->__call('insert', Array)
+#3 /home/webcodebyte/public_html/moore-vision/google/simple.php(50): Google_EventsServiceResource->insert('0l6h391d9iaqqth...', Object(Google_Event))
+#4 {main}
+  in /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/io/Google_REST.php on line 66
+[23-Jul-2016 19:42:49 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling POST https://www.googleapis.com/calendar/v3/calendars/0l6h391d9iaqqthhg4gfrtul9o@group.calendar.google.com/events?key=AIzaSyAB8OsXwcXoa_yMtV1Ttu0QAB4nKLLyejQ: (401) Invalid Credentials' in /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/contrib/Google_CalendarService.php(494): Google_ServiceResource->__call('insert', Array)
+#3 /home/webcodebyte/public_html/moore-vision/google/simple.php(50): Google_EventsServiceResource->insert('0l6h391d9iaqqth...', Object(Google_Event))
+# in /home/webcodebyte/public_html/moore-vision/google/google-api-php-client/src/io/Google_REST.php on line 66
